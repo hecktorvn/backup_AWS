@@ -1,0 +1,32 @@
+input:invalid,
+select:invalid,
+textarea:invalid{
+    border-color: red !important;
+}
+
+.dropdown-item .empty-message{
+    font-size: 13px;
+    font-weight: bold;
+    background: #fff !important;
+}
+
+.dropdown-item .actived{
+    background: #fff;
+}
+
+.dropdown-item .actived.tt-cursor, .dropdown-item .actived:hover{
+    background: whitesmoke;
+}
+
+.dropdown-menu{
+    border: 1px solid rgba(0, 0, 0, 0.17) !important;
+}
+
+.style-hint{
+    opacity: 0.5 !important;
+    background: none !important;
+}
+
+.tt-input:disabled, .tt-input[readonly]{
+    background-color: #EEEEEE !important;
+}
